@@ -1,0 +1,20 @@
+[
+  {
+    "title": "Soluciones de gas",
+    "description": "Espacio para describir los servicios de gas que ofrece Gas Unimetal y el valor que aportan a cada cliente.",
+    "icon": "⌁",
+    "image": ""
+  },
+  {
+    "title": "Servicio especializado",
+    "description": "Presenta aquí los trabajos técnicos, mantenimientos o instalaciones que estén dentro de tu portafolio.",
+    "icon": "⚙",
+    "image": ""
+  },
+  {
+    "title": "Acompañamiento integral",
+    "description": "Explica cómo orientas a tus clientes para que puedan tomar decisiones informadas sobre sus necesidades.",
+    "icon": "✦",
+    "image": ""
+  }
+]
