@@ -1,0 +1,45 @@
+
+media:
+  input: media
+  output: /media
+
+content:
+  - name: site
+    label: Textos de la página
+    type: file
+    path: data/site.json
+    format: json
+    fields:
+      - { name: siteTitle, label: Nombre del sitio, type: string }
+      - { name: metaDescription, label: Descripción SEO, type: text }
+      - { name: eyebrow, label: Frase superior, type: string }
+      - { name: heroTitle, label: Título principal, type: string }
+      - { name: heroDescription, label: Texto principal, type: text }
+      - { name: heroButton, label: Botón principal, type: string }
+      - { name: servicesButton, label: Botón servicios, type: string }
+      - { name: servicesEyebrow, label: Encabezado servicios, type: string }
+      - { name: servicesTitle, label: Título servicios, type: string }
+      - { name: servicesDescription, label: Descripción servicios, type: text }
+      - { name: promiseEyebrow, label: Encabezado compromiso, type: string }
+      - { name: promiseTitle, label: Título compromiso, type: string }
+      - { name: promiseDescription, label: Texto compromiso, type: text }
+      - { name: promiseBullet1, label: Punto 1, type: string }
+      - { name: promiseBullet2, label: Punto 2, type: string }
+      - { name: promiseBullet3, label: Punto 3, type: string }
+      - { name: contactEyebrow, label: Encabezado contacto, type: string }
+      - { name: contactTitle, label: Título contacto, type: string }
+      - { name: contactDescription, label: Texto contacto, type: text }
+      - { name: contactButton, label: Botón contacto, type: string }
+      - { name: contactEmail, label: Correo, type: string }
+
+  - name: services
+    label: Servicios
+    type: file
+    path: data/services.json
+    format: json
+    list: true
+    fields:
+      - { name: title, label: Nombre del servicio, type: string }
+      - { name: description, label: Descripción, type: text }
+      - { name: icon, label: Icono, type: string }
+      - { name: image, label: Imagen, type: image }
