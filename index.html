@@ -189,7 +189,7 @@ footer strong { color: white; }
   <section class="cta" id="contacto">
     <div class="wrap cta-box">
       <div><div class="eyebrow">Estamos para ayudarte</div><h2>¿Buscas una solución para tu proyecto?</h2><p>Contáctanos para conocer tus necesidades y conversar sobre las opciones disponibles.</p></div>
-      <a class="btn btn-gold" href="mailto:contacto@gasunimetal.com?subject=Consulta%20de%20servicios">Escribir por correo ↗</a>
+      <a class="btn btn-gold" href=href="https://wa.me/573203665295">Escribir por correo ↗</a>
     </div>
   </section>
 </main>
@@ -231,7 +231,7 @@ footer strong { color: white; }
     text('.cta p', site.contactDescription);
     const contactLink = document.querySelector('.cta a[href^="mailto:"]');
     if (contactLink) {
-      contactLink.textContent = (site.contactButton || 'Escribir por correo') + ' ↗';
+      contactLink.textContent = (site.contactButton || 'Escribir por Whatsapp') + ' ↗';
       contactLink.href = 'mailto:' + (site.contactEmail || '');
     }
     const cards = document.querySelector('.cards');
